@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+div {
+    margin: 0 auto;
+}
+
+.welcome_header {
+    background-color: rgb(104, 12, 12);
+    box-shadow: 5px 5px 5px grey;
+    padding: 6px;
+}
+
+.welcome_header .h2 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.container {
+    float: right;
+    width: 86%;
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.choice {
+    float: left;
+    width: 10%;
+    background-color: rgb(209, 206, 206);
+    padding: 5px;
+    margin: 5px;
+}
+
+.choice ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.choice li {
+    display: block;
+}
+
+.choice li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
